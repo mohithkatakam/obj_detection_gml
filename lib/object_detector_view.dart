@@ -104,6 +104,7 @@ class _ObjectDetectorView extends State<ObjectDetectorView> {
     // _objectDetector = ObjectDetector(options: options);
 
     _canProcess = true;
+    //_canProcess = true;
   }
 
   Future<void> processImage(InputImage inputImage) async {
